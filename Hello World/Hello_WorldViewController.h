@@ -10,4 +10,12 @@
 
 @interface Hello_WorldViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UIButton *displayMessage;
+
+@property (nonatomic, retain) IBOutlet UILabel *ourMessage;
+
+// Assign our method
+- (IBAction)showMessage:(id)sender;
+
+
 @end

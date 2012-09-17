@@ -14,6 +14,10 @@
 
 @implementation Hello_WorldViewController
 
+
+// Call all of our UI materials
+@synthesize ourMessage, displayMessage;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -31,4 +35,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)showMessage:(id)sender
+{
+    NSLog(@"Pushed down on button");
+    ourMessage.text = @"Hello World!";
+}
 @end
