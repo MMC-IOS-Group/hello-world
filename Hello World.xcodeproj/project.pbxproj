@@ -15,6 +15,7 @@
 		91A99A7E1607B499006D61A6 /* Hello_WorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A99A7D1607B499006D61A6 /* Hello_WorldAppDelegate.m */; };
 		91A99A811607B499006D61A6 /* Hello_WorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A99A801607B499006D61A6 /* Hello_WorldViewController.m */; };
 		91A99A841607B499006D61A6 /* Hello_WorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A99A821607B499006D61A6 /* Hello_WorldViewController.xib */; };
+		91B576981611249200596442 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B576971611249200596442 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		91A99A7F1607B499006D61A6 /* Hello_WorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello_WorldViewController.h; sourceTree = "<group>"; };
 		91A99A801607B499006D61A6 /* Hello_WorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_WorldViewController.m; sourceTree = "<group>"; };
 		91A99A831607B499006D61A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Hello_WorldViewController.xib; sourceTree = "<group>"; };
+		91B576971611249200596442 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		91A99A5E1607B499006D61A6 = {
 			isa = PBXGroup;
 			children = (
+				91B576971611249200596442 /* Default-568h@2x.png */,
 				91A99A731607B499006D61A6 /* Hello World */,
 				91A99A6C1607B499006D61A6 /* Frameworks */,
 				91A99A6A1607B499006D61A6 /* Products */,
@@ -152,6 +155,7 @@
 			files = (
 				91A99A781607B499006D61A6 /* InfoPlist.strings in Resources */,
 				91A99A841607B499006D61A6 /* Hello_WorldViewController.xib in Resources */,
+				91B576981611249200596442 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				91A99A891607B499006D61A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
