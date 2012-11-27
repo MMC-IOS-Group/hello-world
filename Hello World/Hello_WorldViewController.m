@@ -14,9 +14,8 @@
 
 @implementation Hello_WorldViewController
 
+@synthesize ourTextField, theLabel;
 
-// Call all of our UI materials
-@synthesize ourMessage, displayMessage;
 
 - (void)viewDidLoad
 {
@@ -35,9 +34,25 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)showMessage:(id)sender
+- (IBAction)textFieldDidChange:(id)sender
 {
-    NSLog(@"Pushed down on button");
-    ourMessage.text = @"Hello World!";
+    // if our text field has 4 characters
+    if (ourTextField.text.length == 4)
+    {
+        if ([ourTextField.text compare:@"1234"] == NSOrderedSame)
+        {
+            ourTextField.text = @"";
+            theLabel.text = @"Hello world!";
+        }
+        // if it's not equal
+        else
+        {
+            ourTextField.text = @"";
+            theLabel.text = @"Incorrect!";
+        }
+    }
+    // if not, do nothing
 }
+
+
 @end

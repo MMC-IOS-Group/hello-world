@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71D447CB16238EE300CD5456 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D447CA16238EE300CD5456 /* Default-568h@2x.png */; };
 		91A99A6E1607B499006D61A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A99A6D1607B499006D61A6 /* UIKit.framework */; };
 		91A99A701607B499006D61A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A99A6F1607B499006D61A6 /* Foundation.framework */; };
 		91A99A721607B499006D61A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A99A711607B499006D61A6 /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71D447CA16238EE300CD5456 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		91A99A691607B499006D61A6 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A99A6D1607B499006D61A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91A99A6F1607B499006D61A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +52,7 @@
 		91A99A5E1607B499006D61A6 = {
 			isa = PBXGroup;
 			children = (
+				71D447CA16238EE300CD5456 /* Default-568h@2x.png */,
 				91A99A731607B499006D61A6 /* Hello World */,
 				91A99A6C1607B499006D61A6 /* Frameworks */,
 				91A99A6A1607B499006D61A6 /* Products */,
@@ -152,6 +155,7 @@
 			files = (
 				91A99A781607B499006D61A6 /* InfoPlist.strings in Resources */,
 				91A99A841607B499006D61A6 /* Hello_WorldViewController.xib in Resources */,
+				71D447CB16238EE300CD5456 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				91A99A891607B499006D61A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
